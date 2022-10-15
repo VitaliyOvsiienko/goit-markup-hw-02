@@ -9,7 +9,9 @@
     --primery-bg-color: #2F303A;
     --secondary-bg-color: #F5F4FA;
 }
-
+ .body{
+    font-family: 'Raleway';
+ }
 
 span{
     color: var(--primery-accent)
@@ -52,6 +54,8 @@ span{
 }
 
 /*Button*/
+
+
 .button{
     font-family: 'Roboto';
     font-weight: 700;
@@ -66,6 +70,10 @@ span{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+    
+
+
+
 
 /*Aside*/
 .aside-title{
