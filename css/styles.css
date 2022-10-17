@@ -10,11 +10,12 @@
     --secondary-bg-color: #F5F4FA;
 }
  .body{
-    font-family: 'Raleway';
+    font-family: 'Roboto'; 
+
  }
 
 span{
-    color: var(--primery-accent)
+color: var(--primery-accent);
 }
 
 .header-logo{
@@ -23,20 +24,14 @@ span{
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    text-decoration: none;
     
 
 }
 
 /*Navigation*/
-.nav{
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    color: var(--primery-text-color);
-}
- 
+
+  
 /*Contacts*/
 
 
@@ -135,6 +130,7 @@ span{
     color: var(--secondary-text-color);
 }
 
+
 /*Adress*/
 
 .adress {
@@ -145,6 +141,7 @@ span{
     color: var(--white-color);
 }
 
+
 /*Footer*/
 
 .footer-logo{
@@ -153,6 +150,15 @@ span{
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.adress {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--white-color)
 }
 
 .footer-list{
@@ -161,7 +167,6 @@ span{
     line-height: 1.7;
     letter-spacing: 0.03em;
     background-color: var(--primery-bg-color);
-    color: var(--color-contacnts-footer);
-
 }
+
 
