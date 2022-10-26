@@ -5,26 +5,28 @@
     --secondary-text-color: #757575;
     --white-color: #FFFFFF;
     --primery-accent: #2196F3;
-    --color-contacnts-footer: rgba(255, 255, 255, 0.6);
-    --secondary-bg-color: #F5F4FA;
+
 }
  
-/*Body*/
-.body{
-    font-family: 'Roboto';
-
- }
-
-span{
-color: var(--primery-accent);
+span {
+    color: var(--primery-accent);
 }
 
-a{
+a {
     text-decoration: none;
 }
 
+/*Body*/
+.body{
+    font-family: 'Roboto', sans-serif;
 
-        /*Header*/
+ }
+
+/*Header*/
+.header {
+    background-color: var(--white-color); 
+}
+
 .header-logo{
     font-family: 'Raleway';
     font-weight: 700;
@@ -49,13 +51,13 @@ a{
         letter-spacing: 0.02em;
         list-style-type: none;
       }
+      
+          .nav-list .link {
+              color: var(--primery-text-color);
+          }
 
-          .nav-list a {
-            color: var(--primery-text-color);
-          }
-          .contacts a {
-            color: var(--secondary-text-color);
-          }
+          
+       
 
 .nav-list :hover,
 .nav-list :focus {
@@ -65,27 +67,29 @@ a{
 
 
 /*Contacts*/
-.contacts {
+.contacts-list{
         font-weight: 500;
+        font-size: 14px;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
         list-style-type: none;
+    
    }
 
-   .contact-mail {
-        font-size: 14px;
-        line-height: 1.15;
-        letter-spacing: 0.02em;
-   }
-   .contact-tel {
-   
-        font-size: 14px;
-        line-height: 1.15;
-        letter-spacing: 0.02em;
+   .contacts-list .connect{
+color: var(--secondary-text-color);
    }
 
-.contacts :hover,
-.contacts :focus {
+
+.contacts-list :hover,
+.contacts-list :focus {
     color: var(--primery-accent);
 }
+
+
+
+
+
 
 /*HERO*/
 .hero {
@@ -120,6 +124,11 @@ a{
 
 
 /*Aside*/
+.aside {
+    background-color: #F5F5F5;
+}
+
+
 .aside-title{
     color: var(--primery-text-color);
     font-weight: 700;
@@ -137,6 +146,10 @@ a{
 }
 
 /*Work*/
+.work {
+    background-color: #F5F5F5;;
+}
+
 .work-title {
     font-weight: 700;
     font-size: 36px;
@@ -151,7 +164,10 @@ a{
 
 
 
-/*Our Team*/
+/*Team*/
+.team {
+    background-color: #F5F4FA;;
+}
 
 .team-title {
     color: var(--primery-text-color);
@@ -220,7 +236,7 @@ a{
   color: inherit;
 }
 
-.contact-footer {
+.contacts-footer {
     list-style-type: none;
     font-size: 14px;
     line-height: 1.7;
@@ -228,6 +244,18 @@ a{
     
 }
 
+.contacts-footer .adress {
+    color: var(--white-color);
+}
+
+.contacts-footer .connection {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus {
+    color: var(--primery-accent);
+} 
 
 
 
