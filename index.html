@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;1,700;1,900&display=swap"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -19,19 +20,19 @@
 
         <nav>
         
-            <a class="header-logo" href="/index.html"><span>Web</span>Studio</a>  
+            <a class="header-logo link" href="/index.html"><span class="span">Web</span>Studio</a>  
 
         <!--Navigation-->
        
                 <ul class="nav-list">
                     <li>
-                        <a href="#" class="link">Студія</a>
+                        <a class="link" href="#">Студія</a>
                     </li>
                     <li>
-                        <a href="./portfolio.html" class="link">Портфоліо</a>
+                        <a class="link" href="./portfolio.html">Портфоліо</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Контакти</a>
+                        <a class="link" href="#">Контакти</a>
                     </li>
                 </ul>
             </nav>
@@ -39,8 +40,8 @@
             <!--Contacts-->
            
                 <ul class="contacts-list">
-                    <li><a href="mailto:info@devstudio.com" class="connect">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="connect">+38 096 111 11 11</a></li>
+                    <li><a class="connect link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="connect link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
         
             
@@ -52,28 +53,28 @@
         <!--Srction Hero-->
         <section class="hero">
                 
-            <h1>Ефективні рішення для <br>вашого бізнесу</h1>
+            <h1 class="hero-title">Ефективні рішення для <br>вашого бізнесу</h1>
 
-            <button class="button" type="button">Замовити послугу</button>
+            <button class="hero-btn" type="button">Замовити послугу</button>
 
         </section>
             
-            <!--Sections organization-->
+            <!--Sections Features-->
             <h2 style="display:none;">Організація роботи</h2>
         
-        <section class="aside">
+        <section class="features">
 
-            <h2 class="aside-title">УВАГА ДО ДЕТАЛЕЙ</h2>
-            <p class="aside-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            <h2 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h2>
+            <p class="features-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
 
-            <h2 class="aside-title">ПУНКТУАЛЬНІСТЬ</h2>
-            <p class="aside-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+            <h2 class="features-title">ПУНКТУАЛЬНІСТЬ</h2>
+            <p class="features-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
 
-            <h2 class="aside-title">ПЛАНУВАННЯ</h2>
-            <p class="aside-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+            <h2 class="features-title">ПЛАНУВАННЯ</h2>
+            <p class="features-text">Так само консультація з широким активом значною мірою зумовлює.</p>
 
-            <h2 class="aside-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-            <p class="aside-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            <h2 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+            <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         
         </section>
         
@@ -100,17 +101,17 @@
                 <h3 class="team-name">Ігор Дем'яненко</h3>
                 <p class="team-text">Product Designer</p>
                 </li>
-                <li class="work-img">
+                <li class="team-img">
                     <img src="./images/team/img-2.jpg" alt="Ольга Рєпіна" width="270" height="260">
                     <h3 class="team-name">Ольга Рєпіна</h3>
                     <p class="team-text">Frontend Developer</p>
                 </li>
-                <li class="work-img">
+                <li class="team-img">
                     <img src="./images/team/img-3.jpg" alt="Микола Тарасов" width="270" height="260">
                     <h3 class="team-name">Микола Тарасов</h3>
                     <p class="team-text">Marketing</p>
                 </li>
-                <li class="work-img">
+                <li class="team-img">
                     <img src="./images/team/img-4.jpg" alt="Михайло Єрмаков" width="270" height="260">
                     <h3 class="team-name">Михайло Єрмаков</h3>
                     <p class="team-text">UI Designer</p>
@@ -120,30 +121,28 @@
 
     </main>
 
+    
     <!--Footer-->
    
-
-       
-           
-        <footer class="footer">
+         <footer class="footer">
     <!--Logo-->
-            <a class="footer-logo" href="/index.html"><span>Web</span>Studio</a>
+            <a class="footer-logo link" href="/index.html"><span class="span">Web</span>Studio</a>
         
     <!--Contacts-->
             <section>
                 <address>
                     <ul class="contacts-footer">
-                        <li >
+                        <li>
                             
-                            <a href="https://goo.gl/maps/eFiZRFyHb9n71qFo6" target="_blank" class="contacts-footer adress" rel="noopener noreferrer">м. Київ,
+                            <a class="contacts-footer adress link"  href="https://goo.gl/maps/eFiZRFyHb9n71qFo6" target="_blank" rel="noopener noreferrer">м. Київ,
                                 пр-т Лесі
                                 Українки, 26</a>
                         </li>
                         <li>
-                            <a href="mailto:info@devstudio.com" class="contacts-footer connection ">info@devstudio.com</a>
+                            <a class="contacts-footer connection link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
                         <li>
-                            <a href="tel:+380961111111" class="contacts-footer connection">+38 096 111 11 11</a>
+                            <a class="contacts-footer connection link"  href="tel:+380961111111">+38 096 111 11 11</a>
                         </li>
                     </ul>
                 </address>
