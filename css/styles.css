@@ -275,6 +275,7 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: var(--primery-letter-spacing);
+    font-style: normal;
  
 
 }
@@ -296,6 +297,7 @@
     color: rgba(255, 255, 255, 0.6);
 
     font-style: normal;
+  
 
 }
 
@@ -341,11 +343,20 @@
 .info {
     
     list-style: none;
+   
 
 }
 
+.info-link {
+
+    text-decoration: none;
+
+}
+
+
 .info-title {
-        
+    color: var(--primery-text-color);
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -359,7 +370,6 @@
 
     font-size: 16px;
     line-height: 1.87;
-        
     letter-spacing: var(--primery-letter-spacing);
     
 }
